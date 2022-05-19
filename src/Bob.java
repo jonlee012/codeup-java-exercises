@@ -3,21 +3,21 @@ import java.util.Scanner;
 public class Bob {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Hey, I'm Bob. I'm Jon.\n");
-        String userInput = scanner.nextLine();
+        String userInput;
+        do {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Hey, I'm Bob. I'm Jon.\n");
+            userInput = scanner.nextLine();
 
-        if (userInput.endsWith("?")) {
-            System.out.printf("Sure.");
-        }
-        else if (userInput.endsWith("!")) {
-            System.out.printf("Woah, chill out!");
-        }
-        else if (userInput.isEmpty()) {
-            System.out.printf("Fine, be that way!");
-        } else {
-            System.out.printf("Whatever.");
-        }
+            if (userInput.endsWith("?")) {
+                System.out.println("Sure.");
+            } else if (userInput.endsWith("!")) {
+                System.out.println("Woah, chill out!");
+            } else if (userInput.equals("")) {
+                System.out.println("Fine, be that way!");
+            } else {
+                System.out.println("Whatever.");
+            }
+        }while(!userInput.equals("bye"));
     }
-
 }
