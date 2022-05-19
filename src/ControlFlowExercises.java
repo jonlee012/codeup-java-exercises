@@ -5,24 +5,6 @@ public class ControlFlowExercises {
         int i = 100;
 
 
-
-        //create a do-while loop that starts at 2 and displays the number squared on each line
-        //while new number is less than 1,000,000
-//            // long y = 2L;
-//            do {
-//
-//              System.out.println(y);
-        //y *= y;
-//            }while (i < 1000000L);
-
-        //do a for loop now
-//        for (double y = 2; i <= 1000000; i++){
-//            if (i <= 1000000){
-//                Double xy = (Double) Math.sqrt(i);
-//                System.out.println("i is: " + xy);
-//            }
-//        }
-
         Scanner sc = new Scanner(System.in);
 
         //convert number grades into letter grades (From 0-100)
@@ -48,13 +30,10 @@ public class ControlFlowExercises {
             } else {
                 letterGrade = 'F';
             }
-
             System.out.printf("Congratulations you got a %c.%n", letterGrade);
 
             System.out.println("Would you like to look at your letter grades?");
             confirm = sc.next();
         }
-
-
     }
 }
