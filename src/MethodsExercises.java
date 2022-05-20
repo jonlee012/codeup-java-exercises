@@ -6,15 +6,12 @@ public class MethodsExercises {
     public static int add(int num1, int num2) {
         return num1 + num2;
     }
-
     public static int subtract(int num1, int num2) {
         return num1 - num2;
     }
-
     public static int multiply(int num1, int num2) {
         return num1 * num2;
     }
-
     public static int divide(int num1, int num2) {
         return num1 / num2;
     }
@@ -22,7 +19,6 @@ public class MethodsExercises {
     public static int remainder(int num1, int num2) {
         return num1 % num2;
     }
-
     //Taking the defined methods and executing them with parameters
     public static void main(String[] args) {
         System.out.println("add: " + add(10, 2)); //Math
