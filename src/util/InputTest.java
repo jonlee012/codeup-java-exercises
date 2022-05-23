@@ -13,5 +13,18 @@ public class InputTest {
         Boolean myChoice = in.yesNo();
 
         System.out.println(myChoice);
+        System.out.println("Give me a double");
+
+        double doubleNum = in.getDouble();
+        System.out.println(doubleNum);
+
+        //New Tests
+
+        Input test = new Input();
+        test.getInt(1, 20);
+        test.getDouble(1, 20);
+
+
     }
-}
+    }
+
