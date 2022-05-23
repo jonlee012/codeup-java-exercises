@@ -21,7 +21,7 @@ public class Warmups {
 //        System.out.println(numbers);
         System.out.println(sumAll());
 //        System.out.println(language);
-        System.out.println(forLoops());
+//        System.out.println(forLoops());
 
     }
 
@@ -52,17 +52,17 @@ public class Warmups {
 //
 //        return null;
 //    }
-    public static int forLoops(){
-    int [][] myMatrix = {
-            {1,2,3},
-            {4,5,6},
-            {7,8,9}
-    };
-        for(int[] nums : myMatrix){
-//            int nums = 0;
-            System.out.println(Arrays.toString(nums));
-        }
-//        return myMatrix;
-    }
+//    public static int forLoops(){
+//    int [][] myMatrix = {
+//            {1,2,3},
+//            {4,5,6},
+//            {7,8,9}
+//    };
+//        for(int[] nums : myMatrix){
+////            int nums = 0;
+//            System.out.println(Arrays.toString(nums));
+//        }
+////        return myMatrix;
+//    }
 
 }
