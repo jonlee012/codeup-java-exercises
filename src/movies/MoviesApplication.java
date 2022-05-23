@@ -1,2 +1,4 @@
-package movies;public class MoviesApplication {
+package movies;
+
+public class MoviesApplication {
 }
