@@ -34,5 +34,11 @@ public class HelloWorld {
         int number = Integer.MAX_VALUE + 1;
         //-2147483648
         System.out.println(number);
+
+
+//        int z = 5;
+//        System.out.println(z > 2 ? z < 4 ? 10 : 8 : 7);
+        int z = 5 * 4 % 3;
+        System.out.println(z);
     }
 }
