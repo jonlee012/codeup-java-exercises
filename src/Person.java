@@ -22,6 +22,10 @@ public class Person {
     public void sayHello(){
         System.out.println("Hi, my name is: " + this.name);
     }
+    // prints a message to the console using the person's age
+//    public void getAge(int age){
+//        System.out.println("Hi, my age is: " + this.age);
+//    }
 
     // Create a main method on the class that creates a new Person object and tests the above methods.
     public static void main(String[] args) {
@@ -30,7 +34,8 @@ public class Person {
         John.setName(John.getName() +  " Lee");
         // Test new name
         John.sayHello();
-
+        // Test age
+//        John.getAge();
         // 2. Understanding references
         Person person1 = new Person("Kim");
         Person person2 = new Person("Kim");
