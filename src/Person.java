@@ -2,7 +2,7 @@ package util;
 
 public class Person {
 
-    private String name;
+    public String name;
     protected int age;
 
     public Person(){}; //Default constructor
@@ -63,3 +63,4 @@ public class Person {
     }
 
 }
+
