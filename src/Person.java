@@ -1,11 +1,13 @@
 public class Person {
 
     // The class has a private name property that is a string
-    private String name;
+    public String name;
+    public int age;
 
     //The class should have a constructor that accepts a String value and sets the person's name to the passed string.
     public Person(String name) {
         this.name = name;
+        this.age = age;
     }
 
     // returns the person's name
@@ -23,9 +25,13 @@ public class Person {
         System.out.println("Hi, my name is: " + this.name);
     }
     // prints a message to the console using the person's age
-//    public void getAge(int age){
+    public int getAge(){
 //        System.out.println("Hi, my age is: " + this.age);
-//    }
+//                this.age = 35;
+        return this.age;
+    } public void setAge(int age){
+        this.age = age;
+    }
 
     // Create a main method on the class that creates a new Person object and tests the above methods.
     public static void main(String[] args) {
@@ -35,7 +41,9 @@ public class Person {
         // Test new name
         John.sayHello();
         // Test age
-//        John.getAge();
+        John.getAge();
+//        set age
+        John.setAge(John.getAge() + 35);
         // 2. Understanding references
         Person person1 = new Person("Kim");
         Person person2 = new Person("Kim");
