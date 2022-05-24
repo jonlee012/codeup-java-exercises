@@ -32,20 +32,20 @@ public class Person {
         John.sayHello();
 
         // 2. Understanding references
-        Person person1 = new Person("Buddy");
-        Person person2 = new Person("Buddy");
+        Person person1 = new Person("Kim");
+        Person person2 = new Person("Kim");
         System.out.println(person1.getName().equals(person2.getName()));
         System.out.println(person1 == person2);
 
-        person1 = new Person("Buddy");
+        person1 = new Person("Kim");
         person2 = person1;
         System.out.println(person1 == person2);
 
-        person1 = new Person("Buddy");
+        person1 = new Person("Kim");
         person2 = person1;
         System.out.println(person1.getName());
         System.out.println(person2.getName());
-        person2.setName("Harry");
+        person2.setName("Shimmy");
         System.out.println(person1.getName());
         System.out.println(person2.getName());
 
