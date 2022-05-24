@@ -1,5 +1,7 @@
-//public class Manager extends Employee {
-//    public String work() {
-//        return "Managing employees";
-//    }
-//}
+public class Manager extends Worker {
+
+    public String work() {
+        return "Managing employees";
+    }
+
+}
