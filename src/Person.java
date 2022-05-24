@@ -27,7 +27,7 @@ public class Person {
     public static void main(String[] args) {
         Person John = new Person("John");
         // Rewrite name to add last name, this allows us to test.test getName() and setName()
-        John.setName(John.getName() +  " Doe");
+        John.setName(John.getName() +  " Lee");
         // Test new name
         John.sayHello();
 
