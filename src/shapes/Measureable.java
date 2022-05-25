@@ -1,2 +1,8 @@
-package shapes;public class Measureable {
+package shapes;
+
+public interface Measureable {
+
+    double getArea();
+    double getPerimeter();
+
 }
