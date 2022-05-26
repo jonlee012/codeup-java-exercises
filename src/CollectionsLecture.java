@@ -26,18 +26,12 @@ public class CollectionsLecture {
         roasts.isEmpty(); // false
         ArrayList<String> emptyList = new ArrayList<>();
         emptyList.isEmpty(); // true
-
 // .remove has two variants
         roasts.remove("espresso"); // false
         roasts.remove("medium"); // true
         System.out.println(roasts); // [light, medium, dark]
-
         roasts.remove(2); // "dark"
         System.out.println(roasts); // [light, medium]
-
-
-
-
 
         int [] numbers = {1,2,3,4};
         ArrayList<Integer> collectionOfNums = new ArrayList<>(Arrays.asList(numbers[0], numbers[1], numbers[2], numbers[3]));
@@ -60,11 +54,11 @@ public class CollectionsLecture {
 //        System.out.println(squares.contains(specialOne));
         squares.add(new Square(8));
         System.out.println(squares.contains(new Square(8)));
-
-        HashMap<Character, Circle> circles = new HashMap<>();
-        circles.put('A', new Circle(3));
-        Circle specialCircle = new Circle(6);
-        circles.put('B', specialCircle);
-        System.out.println(circles);
+//
+//        HashMap<Character, Circle> circles = new HashMap<>();
+//        circles.put('A', new Circle(3));
+//        Circle specialCircle = new Circle(6);
+//        circles.put('B', specialCircle);
+//        System.out.println(circles);
     }
 }
