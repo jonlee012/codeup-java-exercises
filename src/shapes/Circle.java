@@ -12,7 +12,7 @@ public class Circle {
         return Math.PI * (Math.pow(radius, 2));
     }
 
-    public double getCircumfrence() {
+    public double getCircumference() {
         return 2 * Math.PI * radius;
     }
 
