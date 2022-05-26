@@ -1,11 +1,10 @@
-import shapes.Circle;
+//import shapes.Circle;
 //import shapes.Circle1;
 import shapes.Square;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
+//import java.util.HashMap;
 import java.util.List;
-
 
 public class CollectionsLecture {
     public static void main(String[] args) {
