@@ -17,14 +17,11 @@ public class CollectionsLecture {
         roasts.add("dark");
         System.out.println(roasts.indexOf("light"));
         System.out.println(roasts); // [light, medium, medium, dark]
-
 // using .contains
         roasts.contains("dark"); // true
         roasts.contains("espresso"); // false
-
 // using .lastIndexOf
         roasts.lastIndexOf("medium"); // 2
-
 // using .isEmpty
         roasts.isEmpty(); // false
         ArrayList<String> emptyList = new ArrayList<>();
