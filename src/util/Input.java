@@ -14,6 +14,7 @@ public class Input {
     }
 
     public Boolean yesNo() {
+        System.out.println("Type: yes or y");
         if (Objects.equals(scanner.nextLine(), "yes")) {
             return true;
         } else {
