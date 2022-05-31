@@ -9,7 +9,7 @@ public class Input {
     private Scanner scanner = new Scanner(System.in);
 
     public String getString() {
-        System.out.println("hello");
+//        System.out.println("hello");
         return scanner.nextLine();
     }
 
@@ -32,6 +32,7 @@ public class Input {
         }
         if (newNum <= max && newNum >= min) {
             System.out.println("that's a valid number");
+            System.out.println("you have entered: " + newNum);
             return newNum;
         } else {
             System.out.println("please add a number between inputs");
@@ -42,6 +43,7 @@ public class Input {
     public int getInt() {
         return scanner.nextInt();
     }
+
     public double getDouble(double min, double max) {
         System.out.println("Enter an integer between " + min + " and " + max);
 
