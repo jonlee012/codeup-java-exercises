@@ -4,7 +4,7 @@ public class InputTest {
     public static void main(String[] args) {
 //        System.out.println(getString());
         Input in = new Input();
-        System.out.println("Give me a string!");
+        System.out.println("Enter a string:");
         String storedString = in.getString();
 
         System.out.println(storedString);
