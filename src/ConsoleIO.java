@@ -16,5 +16,7 @@ public class ConsoleIO {
         String userInput = scanner.nextLine();
 
         System.out.printf("You entered %s", userInput);
+//        int[] numbers = {1, 2, 3};
+//        System.out.println(numbers[999]);
     }
 }
