@@ -22,9 +22,15 @@ public class Warmups {
         System.out.println(sumAll());
 //        System.out.println(language);
 //        System.out.println(forLoops());
-
+        System.out.println(spaceNumbers([1, 3, 5, 6]));
     }
+    public static int spaceNumbers(int numArr){
+        for(int i = 0; i < numArr; i++){
+            System.out.print(" ");
+        }
 
+        return numArr;
+    }
     //    new method
 //    create new method
     public static int sumAll() {
