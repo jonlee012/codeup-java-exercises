@@ -26,20 +26,17 @@ public class Review {
 
 
 //    question 3
-public static int even(int [] numArr) {
-    int evenNums[];
-    for(int i=0;i<numArr.length;i++){
-        if(numArr[i]%2==0){
-            System.out.println(numArr[i]);
+public static void even(int[] nums){
+    for(int i = 0; i < nums.length; i++){
+        if(nums[i] % 2 == 0){
+            System.out.println(nums[i]);
         }
-        evenNums[].push(numArr[i]);
-
     }
-    return evenNums;
-
-//        radius = 2.0;
-//        return 2 * Math.PI * radius;
 }
+//
+////        radius = 2.0;
+////        return 2 * Math.PI * radius;
+//}
 //public class EvenInArray{
 //    public static void main(String args[]){
 //        int a[]={};
@@ -60,10 +57,10 @@ public static int even(int [] numArr) {
         System.out.println(getCircumference());
 
 //        question 2
-        System.out.println(total(2.0, 2.0));
+        System.out.println(total(10.0, 20.0));
 
 //          question 3
-
+//        System.out.println(even(int [1,2,3,4]));
 
 //          question 4
 
