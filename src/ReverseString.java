@@ -8,7 +8,7 @@ public class ReverseString {
         char[] letters = new char[s.length()];
         int letterIndex = 0;
         for (int i = s.length() -1; i >= 0; i--){
-            System.out.println(s.charAt(i));
+//            System.out.println(s.charAt(i));
             letters[letterIndex]= s.charAt(i);
             letterIndex++;
         }
