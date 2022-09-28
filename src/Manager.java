@@ -1,4 +1,3 @@
-//import util.Person;
 //
 //public class Manager extends Employee {
 //    public Manager(String managerName) {
@@ -23,7 +22,7 @@
 //        newManager.sayHello();
 //    }
 //}
-
+//
 //public class Manager extends Employee{
 //
 //    public String work() {
